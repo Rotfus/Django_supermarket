@@ -23,7 +23,8 @@
     <body>
         <div id="display"></div>
         <script>
-            const MY_SERVER = "http://127.0.0.1:8000/"
+            const MY_SERVER = "https://django-supermarket-zqsz.onrender.com/"
+            //http://127.0.0.1:8000/ this was the previous address
             const load_display = async () => {
                 const res = await axios.get(MY_SERVER + "/products")
 
